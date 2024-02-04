@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Event</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+    .logo1{
+        width:50px;
+        height:50px;
+    }
+    .body1{
+      background-image: url("imag/pic3.jpg");
+      height:350px;
+    }
+    .tit{
+      padding-top:100px;
+      font-size: 80px;
+
+    }
+    .title{
+      font-family: 'Roboto Mono', monospace;
+    }
+    .hero{
+    background-image: url("imag/pic3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    height: 400px;
+    z-index: 2;
+    }
+.hero::after{
+    content:"";
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: rgba(21,20,51,0.8);
+    z-index: -1;
+}
+    
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <div class="img-fluid">
+                <img src="logo-icon.png" class="logo1" alt="logo">
+            </div>
+          <a class="navbar-brand ms-5" href="#"><h2 class="title"><b>TEKZO-2K23</b></h2></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="cls1">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-4">
+              <li class="nav-item">
+                <a class="nav-link active title" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active title" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Events
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item title" href="tech_event.html">Technical</a></li>
+                  <li><a class="dropdown-item title" href="#">Non Technical</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active title" href="about.html">About</a>
+              </li>
+
+              
+              <li class="nav-item">
+                <a class="nav-link active btn btn-primary bg-white text-dark" href="#" tabindex="-1" aria-disabled="false">REGISTER</a>
+              </li>
+            </ul>
+              </div>
+           
+          </div>
+        </div>
+      </nav>
+     
+    <!-- <div class="body1">
+      <div class="container">
+        <div class="row">
+          <h1 class="tit"><center>Technical Events</center></h1>
+        </div>
+      </div>
+      </div> -->
+      <div class="hero d-flex align-items-center" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 mx-auto text-center my-3">
+                    <h1 class="display-4 text-white">Technical Events</h1>
+                    <a class="btn btn-outline-danger p-2 px-5" href="#">Register</a>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+      <div class="container bdy2">
+        <div class="row justify-content-center p-4">
+          <div class="col-10 col-lg-4 my-5 col-md-6 col-sm-6">
+            <div class="card img-fluid border border-5 p-3">
+              <img src="imag/pic1.jpg" class="img-fluid" style="width:29rem" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center">PAPER PRESENTATIONS</h5>
+                <p class="text-center">
+                  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    Hit me for more info
+                  </button>
+                </p>
+                <div class="collapse" id="collapseExample">
+                  <div class="card card-body">
+                    Paper presentation is an oral presentation where participants required to make a paper on emerging technologies and present it infront of juries.
+                    Each paper presentation will be a maximum of 12 minutes in length and will be followed by a brief question and answer period.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-lg-4 my-5 col-md-6 col-sm-6">
+            <div class="card img-fluid border border-5 p-3">
+              <img src="imag/fungame.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center">POSTER PRESENTATION</h5>
+                <p class="text-center">
+                  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
+                    Hit me for more info
+                  </button>
+                </p>
+                <div class="collapse" id="collapseExample2">
+                  <div class="card card-body">
+                    A poster itself is a visual presentation comprising whatever the contributor wishes to display on the poster board.
+                    The purpose of a poster is to outline a piece of work in a form that is easily assimilated and stimulates interest and discussion. 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-lg-4 my-5 col-md-6 col-sm-6">
+            <div class="card img-fluid border border-5 p-3">
+              <img src="imag/pic3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center">CODE HUNT</h5>
+                <p class="text-center">
+                  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">
+                    Hit me for more info
+                  </button>
+                </p>
+                <div class="collapse" id="collapseExample3">
+                  <div class="card card-body">
+                    Code Hunt is unique as an online coding platform in that each puzzle is presented with test cases only, no specification. 
+                    Players have to first work out the pattern and then code the answer.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-lg-4 my-5 col-md-6 col-sm-6">
+            <div class="card img-fluid border border-5 p-3">
+              <img src="imag/gradiant.png" class="img-fluid" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center">TECHNICAL QUIZ</h5>
+                <p class="text-center">
+                  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample4">
+                    Hit me for more info
+                  </button>
+                </p>
+                <div class="collapse" id="collapseExample4">
+                  <div class="card card-body">
+                    This quiz competition is a pursuit of technical knowledge and actually tests the students
+retention and accumulation of knowledge towards application of concepts. It would be greatly
+helpful in acknowledging their position on their journey to technical excellence. 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-lg-4 my-5 col-md-6 col-sm-6">
+            <div class="card img-fluid border border-5 p-3">
+              <img src="imag/lap_back1.jpg" class="img-fluid" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center">TYPING</h5>
+                <p class="text-center">
+                  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample5" aria-expanded="false" aria-controls="collapseExample5">
+                    Hit me for more info
+                  </button>
+                </p>
+                <div class="collapse" id="collapseExample5">
+                  <div class="card card-body">
+                    Typing is the process of writing or inputting text by pressing keys on a computer keyboard.
+ Text can be in the form of letters, numbers and other symbols.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-lg-4 my-5 col-md-6 col-sm-6">
+            <div class="card img-fluid border border-5 p-3">
+              <img src="imag/pic1.jpg" class="img-fluid" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center">WEB DESIGNING</h5>
+                <p class="text-center">
+                  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample6" aria-expanded="false" aria-controls="collapseExample6">
+                    Hit me for more info
+                  </button>
+                </p>
+                <div class="collapse" id="collapseExample6">
+                  <div class="card card-body">
+                    Web designers plan, create and code internet sites and web pages, many of which combine text with sounds, pictures, graphics and video clips.It and can mean working on a brand new website or updating an already existing site.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+       </div>
+      </div>
+
+      <div class="container text-center mb-5">
+        <div class="row">
+          <div class="col align-self-start">
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <a class="btn btn-danger p-3" href="#">Register Now</a>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+</body>
+</html>
